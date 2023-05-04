@@ -32,8 +32,6 @@ model {
   survival ~ binomial_logit(nreplicates, a + b * concentration);
   
   // priors
-  a ~ normal(0, 10);
-  b ~ normal(0, 10);
   phi ~ normal(0, 2000);
 }
 

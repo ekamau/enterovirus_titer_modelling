@@ -58,7 +58,9 @@ stan_data <- list(
   sample = df$sample,
   N_sim = N_sim,
   sample_sim = sample_sim,
-  dilution_sim = dilution_sim
+  dilution_sim = dilution_sim,
+  a=-2,
+  b=3
 )
 
 #--------------------------------------------------------------------------------------------
